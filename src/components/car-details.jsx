@@ -34,10 +34,6 @@ if (localStorage.getItem("bookedCars") === null) {
 class CarDetails extends Component {
   constructor() {
     super();
-    if (!localStorage.justOnce) {
-      localStorage.setItem("justOnce", "true");
-      window.location.reload();
-    }
   }
   bookNowRender() {
     let returnItem = 0;

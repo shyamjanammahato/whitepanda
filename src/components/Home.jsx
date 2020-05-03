@@ -11,6 +11,10 @@ import img4 from "../assets/honda-CR-V.jpg";
 class Home extends Component {
   constructor() {
     super();
+    if (!localStorage.justOnce) {
+      localStorage.setItem("justOnce", "true");
+      window.location.reload();
+    }
   }
   state = {
     cars: [
