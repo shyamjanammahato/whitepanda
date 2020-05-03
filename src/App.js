@@ -1,6 +1,11 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Navbar from "./components/navbar/navbar";
 import Home from "./components/Home";
 import CarDetails from "./components/car-details";
@@ -12,9 +17,11 @@ function App() {
       <div className="container">
         <Navbar />
         <Switch>
+          <Redirect exact from="/" to="/home" />
+          <Redirect exact from="/index.html" to="/home" />
           <Route exact path="/car-details/:car_id" component={CarDetails} />
           <Route exact path="/book-car/:car_id" component={BookCar} />
-          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
         </Switch>
       </div>
     </Router>
