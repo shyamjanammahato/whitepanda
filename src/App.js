@@ -17,8 +17,8 @@ function App() {
       <div className="container">
         <Navbar />
         <Switch>
-          <Redirect exact from="/" to="/home" />
           <Redirect exact from="/index.html" to="/home" />
+          <Redirect exact from="/" to="/home" />
           <Route exact path="/car-details/:car_id" component={CarDetails} />
           <Route exact path="/book-car/:car_id" component={BookCar} />
           <Route exact path="/home" component={Home} />
