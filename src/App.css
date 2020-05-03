@@ -1,0 +1,9 @@
+.react-datepicker-wrapper {
+  display: block !important;
+}
+.errorMessage {
+  color: red;
+}
+input.error {
+  border: 1px solid red;
+}

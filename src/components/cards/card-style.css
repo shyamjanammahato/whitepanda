@@ -1,0 +1,34 @@
+.card-body {
+  padding: 0rem !important;
+}
+@media only screen and (max-width: 750px) {
+  h5 {
+    text-align: center;
+    font-size: 2rem !important;
+  }
+  p,
+  h6 {
+    text-align: center;
+    font-size: 1.7rem !important;
+  }
+  span {
+    display: inline-block;
+    /* margin: 10px 10px 0 0; */
+    /* padding: 5px 10px; */
+  }
+  .btn-text {
+    font-size: 1.7rem !important;
+  }
+  .small-height {
+    height: auto !important;
+  }
+  .mobile-style {
+    margin-top: 0rem !important;
+    text-align: center;
+  }
+  .descp-btn-text {
+    font-size: 1.7rem !important;
+    margin-left: 9rem;
+    margin-bottom: 2rem;
+  }
+}
