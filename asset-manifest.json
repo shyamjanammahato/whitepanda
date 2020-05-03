@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/whitepanda/static/css/main.67751cba.chunk.css",
-    "main.js": "/whitepanda/static/js/main.f5acf19a.chunk.js",
-    "main.js.map": "/whitepanda/static/js/main.f5acf19a.chunk.js.map",
-    "runtime-main.js": "/whitepanda/static/js/runtime-main.a8520524.js",
-    "runtime-main.js.map": "/whitepanda/static/js/runtime-main.a8520524.js.map",
-    "static/css/2.4029513c.chunk.css": "/whitepanda/static/css/2.4029513c.chunk.css",
-    "static/js/2.edf33eea.chunk.js": "/whitepanda/static/js/2.edf33eea.chunk.js",
-    "static/js/2.edf33eea.chunk.js.map": "/whitepanda/static/js/2.edf33eea.chunk.js.map",
-    "index.html": "/whitepanda/index.html",
-    "precache-manifest.2a34182f2600fbd4c6a3200919669296.js": "/whitepanda/precache-manifest.2a34182f2600fbd4c6a3200919669296.js",
-    "service-worker.js": "/whitepanda/service-worker.js",
-    "static/css/2.4029513c.chunk.css.map": "/whitepanda/static/css/2.4029513c.chunk.css.map",
-    "static/css/main.67751cba.chunk.css.map": "/whitepanda/static/css/main.67751cba.chunk.css.map",
-    "static/js/2.edf33eea.chunk.js.LICENSE.txt": "/whitepanda/static/js/2.edf33eea.chunk.js.LICENSE.txt",
-    "static/media/ford-ecosport.jpg": "/whitepanda/static/media/ford-ecosport.b56945ae.jpg",
-    "static/media/honda-CR-V.jpg": "/whitepanda/static/media/honda-CR-V.6678be11.jpg",
-    "static/media/hyundai-grand-i10.png": "/whitepanda/static/media/hyundai-grand-i10.15c4d71b.png",
-    "static/media/logo.PNG": "/whitepanda/static/media/logo.d5bc3010.PNG",
-    "static/media/maruti-Suzuki-XL6.jpg": "/whitepanda/static/media/maruti-Suzuki-XL6.c5a758d7.jpg"
+    "main.css": "/whitepanda-assignment/static/css/main.67751cba.chunk.css",
+    "main.js": "/whitepanda-assignment/static/js/main.af806ea4.chunk.js",
+    "main.js.map": "/whitepanda-assignment/static/js/main.af806ea4.chunk.js.map",
+    "runtime-main.js": "/whitepanda-assignment/static/js/runtime-main.d0b764d5.js",
+    "runtime-main.js.map": "/whitepanda-assignment/static/js/runtime-main.d0b764d5.js.map",
+    "static/css/2.4029513c.chunk.css": "/whitepanda-assignment/static/css/2.4029513c.chunk.css",
+    "static/js/2.edf33eea.chunk.js": "/whitepanda-assignment/static/js/2.edf33eea.chunk.js",
+    "static/js/2.edf33eea.chunk.js.map": "/whitepanda-assignment/static/js/2.edf33eea.chunk.js.map",
+    "index.html": "/whitepanda-assignment/index.html",
+    "precache-manifest.51c998773090f9684b78c311fcbc3f91.js": "/whitepanda-assignment/precache-manifest.51c998773090f9684b78c311fcbc3f91.js",
+    "service-worker.js": "/whitepanda-assignment/service-worker.js",
+    "static/css/2.4029513c.chunk.css.map": "/whitepanda-assignment/static/css/2.4029513c.chunk.css.map",
+    "static/css/main.67751cba.chunk.css.map": "/whitepanda-assignment/static/css/main.67751cba.chunk.css.map",
+    "static/js/2.edf33eea.chunk.js.LICENSE.txt": "/whitepanda-assignment/static/js/2.edf33eea.chunk.js.LICENSE.txt",
+    "static/media/ford-ecosport.jpg": "/whitepanda-assignment/static/media/ford-ecosport.b56945ae.jpg",
+    "static/media/honda-CR-V.jpg": "/whitepanda-assignment/static/media/honda-CR-V.6678be11.jpg",
+    "static/media/hyundai-grand-i10.png": "/whitepanda-assignment/static/media/hyundai-grand-i10.15c4d71b.png",
+    "static/media/logo.PNG": "/whitepanda-assignment/static/media/logo.d5bc3010.PNG",
+    "static/media/maruti-Suzuki-XL6.jpg": "/whitepanda-assignment/static/media/maruti-Suzuki-XL6.c5a758d7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8520524.js",
+    "static/js/runtime-main.d0b764d5.js",
     "static/css/2.4029513c.chunk.css",
     "static/js/2.edf33eea.chunk.js",
     "static/css/main.67751cba.chunk.css",
-    "static/js/main.f5acf19a.chunk.js"
+    "static/js/main.af806ea4.chunk.js"
   ]
 }
