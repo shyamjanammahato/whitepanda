@@ -67,10 +67,10 @@ class Home extends Component {
   };
 
   render() {
-    // if (!localStorage.justOnce) {
-    //   localStorage.setItem("justOnce", "true");
-    //   window.location.reload();
-    // }
+    if (!localStorage.justOnce) {
+      localStorage.setItem("justOnce", "true");
+      window.location.reload();
+    }
     let bookedlistId = [];
     let bookedCars = [];
     if (localStorage.getItem("bookedCars") === null) {
