@@ -9,13 +9,6 @@ import img3 from "../assets/maruti-Suzuki-XL6.jpg";
 import img4 from "../assets/honda-CR-V.jpg";
 
 class Home extends Component {
-  constructor() {
-    super();
-    if (!localStorage.justOnce) {
-      localStorage.setItem("justOnce", "true");
-      window.location.reload();
-    }
-  }
   state = {
     cars: [
       {
@@ -72,7 +65,12 @@ class Home extends Component {
       },
     ],
   };
+
   render() {
+    // if (!localStorage.justOnce) {
+    //   localStorage.setItem("justOnce", "true");
+    //   window.location.reload();
+    // }
     let bookedlistId = [];
     let bookedCars = [];
     if (localStorage.getItem("bookedCars") === null) {

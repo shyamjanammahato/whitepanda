@@ -32,9 +32,6 @@ if (localStorage.getItem("bookedCars") === null) {
 }
 
 class CarDetails extends Component {
-  constructor() {
-    super();
-  }
   bookNowRender() {
     let returnItem = 0;
     bookedlistId.forEach((item) => {
